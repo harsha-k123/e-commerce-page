@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav class="desktop-nav">
+    <img src="images/icon-menu.svg" alt="Menu" class="menu">
+    <img src="images/logo.svg" alt="Logo" class="logo">
+    <ul class="navbar-list">
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <div class="profile">
+      <img src="images/icon-cart.svg" alt="Cart" class="cart"><span class="cart-num-nav">3</span>
+      <img src="images/image-avatar.png" alt="Avatar" class="avatar">
+    </div>
+  </nav>
+  <hr style="width: 100%; max-width: 100%;">
+
+  <nav class="mobile-nav">
+    <img src="images/icon-close.svg" alt="Close" class="close">
+    <ul class="navbar-list-mobile">
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+<div class="page-content">
+  <aside>
+    <img src="images/image-product-1.jpg" alt="Shoe Image 1" class="main-image">
+    <img src="images/image-product-1.jpg" alt="Image 1" class="thumbnail">
+    <img src="images/image-product-2.jpg" alt="Image 2" class="thumbnail">
+    <img src="images/image-product-3.jpg" alt="Image 3" class="thumbnail">
+    <img src="images/image-product-4.jpg" alt="Image 4" class="thumbnail">
+  </aside>
+
+  <main>
+    <p class="small-text">SNEAKER COMPANY</p>
+
+    <h1>Fall Limited Edition Sneakers</h1>
+
+    <p class="main-text">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+    durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+
+    <h2>$125.00</h2> <p class="percent-50">50%</p>
+    <p class="small-text"><s>$250.00</s></p>
+
+    <div class="buttons">
+      <button class="number-toggle"><img src="images/icon-minus.svg" alt="Minus" class="minus"><p class="quantity">0</p> <img src="images/icon-plus.svg" alt="Plus" class="plus"></button>
+      <button class="cart-button"> <img src="images/icon-cart.svg" alt="Cart">Add to cart</button>
+    </div>
+  </main>
+</div>
+
+<div class="lightbox">
+  <div class="main-img-area-lb">
+    <img src="images/icon-close.svg" alt="Close" class="close-lb">
+    <img src="images/image-product-1.jpg" alt="Shoe Image 1" class="main-image-lb">
+  </div>
+  <div class="thumbnails-area-lb">
+    <img src="images/image-product-1.jpg" alt="Image 1" class="thumbnail-lb">
+    <img src="images/image-product-2.jpg" alt="Image 2" class="thumbnail-lb">
+    <img src="images/image-product-3.jpg" alt="Image 3" class="thumbnail-lb">
+    <img src="images/image-product-4.jpg" alt="Image 4" class="thumbnail-lb">
+  </div>
+</div>
+
+<div class="cart-items">
+  <h3>Cart</h3><hr>
+  <img src="images/image-product-1-thumbnail.jpg" alt="Image 1" class="small-cart-img">
+  <p class="checkout-text">Fall Limited Edition Sneakers</p>
+  <p class="amount">$125.00 * <p class="amt-on-cart"> 3</p></p> <p class="total"><b>$375.00</b></p> <img src="images/icon-delete.svg" alt="Delete" class="delete">
+  <button class="checkout">Checkout</button>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/harsha-k123">Harsha Khatri</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
